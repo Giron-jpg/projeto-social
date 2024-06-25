@@ -29,3 +29,18 @@ section#telefone{
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 600px;
+}
+
+section#redes{
+    position: absolute;
+
+    background-color: #fff;
+}
