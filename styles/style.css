@@ -38,16 +38,6 @@ iframe#tela{
     height: 469px;
 }
 
-/* section > button#home{
-    position: relative;
-    background-color: #ffffff2d;
-    top: 624px;
-    left: 450px;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-} */
-
 button#home{
     position: absolute;
     display: flex;
@@ -58,4 +48,18 @@ button#home{
     padding: 20px;
     margin-top: 271px;
     border-radius: 50%;
+}
+
+section#redes{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+
+section#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
 }
