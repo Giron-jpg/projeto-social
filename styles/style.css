@@ -59,7 +59,16 @@ section#redes{
 
 section#redes img{
     width: 50px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+    transition: all .5s;
+}
+
+section#redes img:hover{
+    transform: translate(-6px, -6px);
+    border: 3px solid rgba(255, 255, 255, 0.404);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.575);
+    transition: transform .5s, border .1s;
 }
