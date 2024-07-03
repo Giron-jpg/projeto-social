@@ -12,13 +12,18 @@
             <iframe id="tela" name="tela" src="home.html" frameborder="0"></iframe>
         </section>
         <section id="redes">
-            <button id="home" onclick="href='home.html'"><a href="home.html" target="tela"></a></button>
-            <a href="youtube.html" target="tela"><img src="imagens/logo-youtube.jpg" alt="Site YouTube João Paulo Giron"></a>
-            <a href="#"><img src="imagens/logo-instagram.jpg" alt="Site instagram João Paulo Giron"></a>
-            <a href="#"><img src="imagens/logo-twitter.jpg" alt="Twitter (X) João Paulo Giron"></a>
-            <a href="#"><img src="imagens/logo-github.jpg" alt="Site instagram João Paulo Giron"></a>
-            <a href="#"><img src="imagens/logo-facebook.jpg" alt="Site facebook João Paulo Giron"></a>
+            <button id="home" onclick="openInIframe('home.html')"></button>
+            <a href="youtube.html" target="tela"><img src="imagens/logo-youtube.jpg" alt="Site YouTube João Paulo Giron"></a><br>
+            <a href="instagram.html" target="tela"><img src="imagens/logo-instagram.jpg" alt="Site instagram João Paulo Giron"></a><br>
+            <a href="x.html" target="tela"><img src="imagens/logo-twitter.jpg" alt="Twitter (X) João Paulo Giron"></a><br>
+            <a href="github.html" target="tela"><img src="imagens/logo-github.jpg" alt="Site instagram João Paulo Giron"></a><br>
+            <a href="facebook.html" target="tela"><img src="imagens/logo-facebook.jpg" alt="Site facebook João Paulo Giron"></a><br>
         </section>
     </main>
+    <script>
+        function openInIframe(url) {
+            document.getElementById('tela').src = url;
+        }
+    </script>
 </body>
 </html>

@@ -51,10 +51,7 @@ button#home{
 }
 
 section#redes{
-    display: flex;
-    flex-direction: column;
     text-align: right;
-
 }
 
 section#redes img{
